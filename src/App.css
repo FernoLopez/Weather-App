@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-image:url('https://idsb.tmgrup.com.tr/ly/uploads/images/2021/07/30/132208.jpg')
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.objects-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: min(400px, 80%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 1px 1px 5px 0 blue;
+  }
+
+.box{
+  width: min(400px, 80%);
+  background:linear-gradient(rgba(0, 79, 250, 0.082),transparent);
+  background-color:rgba(0, 37, 250, 0.5); 
+  opacity: 0.7;
+  }
+
+img {
+  min-height: 200px;
+}
+
+.btn-style:active {
+  
+  font-size: 12px;
+  width: 100px;
+  border: none;
+  color: blue;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 0 blue;
+  transition: box-shadow 200 ms ease;
+}
+
+
+
